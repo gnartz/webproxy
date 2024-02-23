@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='webproxy',
+    name='gnartz_webproxy',
     version='0.1.0',
     author='Jimmy Allen',
     author_email='allenjsomb@gmail.com',
@@ -13,4 +13,6 @@ setup(
         'Operating System :: OS Independent',
         ],
     python_requires='>=3.10',
+    install_requires=['aiohttp==3.9.3', 'click==8.1.7'],
+    scripts=['gnartz_webproxy/webproxy']
 )

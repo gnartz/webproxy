@@ -1,2 +1,9 @@
-# web-proxy
-simple but functional web proxy
+# webproxy
+A simple but functional async web proxy.
+
+## install
+pip install gnartz_webproxy
+
+## usage
+webproxy --help
+
